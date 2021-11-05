@@ -40,14 +40,4 @@ public class MyTelegramLongPollingBot extends TelegramLongPollingBot {
         updateHandler.handleMessage(update);
 
     }
-
-//    @Override
-//    public void clearWebhook() throws TelegramApiRequestException {
-//        WebhookUtils.clearWebhook(this);
-//    }
-//
-//    @Override
-//    public void onClosing() {
-//        exe.shutdown();
-//    }
 }
